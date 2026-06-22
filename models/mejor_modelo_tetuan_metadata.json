@@ -1,0 +1,20 @@
+{
+    "modelo": "RandomForest_exogenas",
+    "estrategia": "recursiva",
+    "usa_exogenas": true,
+    "target": "y",
+    "exog_cols": [
+        "temperatura",
+        "humedad",
+        "velocidad_viento",
+        "flujo_difuso_general",
+        "flujo_difuso"
+    ],
+    "steps": 24,
+    "mae_test": 1085.5671165088777,
+    "mejores_lags": "[  1   2   3  23  24  25  47  48  49 167 168]",
+    "mejores_params": "{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 300}",
+    "fecha_min": "2017-01-01 00:00:00",
+    "fecha_max": "2017-12-30 23:00:00",
+    "frecuencia": "h"
+}
